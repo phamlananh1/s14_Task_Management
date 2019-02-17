@@ -17,22 +17,22 @@ Route::prefix('customer')->group(function (){
     });
     Route::get('create', function (){
 
-    });
+    })->name('create');
     Route::post('store', function (){
 
-    });
+    })->name('store');
     Route::get('{id}/show', function (){
 
-    });
+    })->name('show');
     Route::get('{id}/edit', function (){
 
-    });
+    })->name('edit');
     Route::patch('{id}/update', function (){
 
-    });
+    })->name('updete');
     Route::delete('{id}', function (){
 
-    });
+    })->name('delete');
 
 });
 
